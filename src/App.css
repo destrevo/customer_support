@@ -48,7 +48,7 @@
   margin-top: 50px;
   border-radius: 10px;
   height: 600px;
-  background-color: #455db556;
+  background-color: #0d277eb0;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -109,6 +109,16 @@
   background-color: #7b6cdf;
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
   transition-duration: .1s;
+}
+.chat_message{
+  height: 50px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 
