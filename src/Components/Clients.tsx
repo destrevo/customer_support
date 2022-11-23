@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-interface IMessages {
+export interface IMessages {
     id: number;
     message: string;
     name: string;
@@ -8,11 +8,13 @@ interface IMessages {
 
 export default function ClientsComponent(): JSX.Element {
 
+// eslint-disable-next-line
     const [messages, setMessages] = useState<IMessages[]>([
         { id: 1, message: 'Hello', name: 'John' },
         { id: 2, message: 'Hola', name: 'Martha' },
         { id: 1, message: 'Im 1' , name: 'John'  },
         { id: 2, message: 'Im 2', name: 'Martha' },
+        
     ]);
 
     return (
